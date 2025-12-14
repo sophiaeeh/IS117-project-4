@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- DEVELOPER: Sophia Egharevba, IS117, Fall 2025 -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Balancing Content, College & Fitness</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="d-flex flex-column min-vh-100 page-home">
+<header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Balanced Journey</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar"
+                    aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mainNavbar">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="journeyDropdown" role="button"
+                           data-bs-toggle="dropdown" aria-expanded="false">
+                            My Journey
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="journeyDropdown">
+                            <li><a class="dropdown-item" href="college-career.html">College &amp; Career</a></li>
+                            <li><a class="dropdown-item" href="content-creation.html">Content Creation</a></li>
+                            <li><a class="dropdown-item" href="fitness-lifestyle.html">Fitness &amp; Lifestyle</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<main class="flex-fill">
+    <section class="py-5 hero-section text-center text-md-start">
+        <div class="container">
+            <div class="row align-items-center g-4">
+                <div class="col-md-6">
+                    <h1 class="display-5 fw-bold mb-3">Balancing Content Creation, College &amp; Fitness</h1>
+                    <p class="lead mb-4">
+                        I am sharing how I juggle being a college student, content creator, and fitness lover—
+                        the real routines, challenges, and little wins that keep everything moving.
+                    </p>
+                    <a href="college-career.html" class="btn btn-primary btn-lg me-2">Start with College &amp; Career</a>
+                    <a href="contact.html" class="btn btn-outline-light btn-lg">Work with Me</a>
+                </div>
+                <div class="col-md-6 text-center">
+                    <img src="images/college-library.jpg" class="img-fluid rounded shadow"
+                         alt="Student studying in a library">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4">Explore the Balance</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm">
+                        <img src="images/college-library.jpg" class="card-img-top"
+                             alt="Student smiling while studying in the library">
+                        <div class="card-body">
+                            <h5 class="card-title">College &amp; Career</h5>
+                            <p class="card-text">
+                                How I manage classes, assignments, and career goals while still having space
+                                for creativity and wellness.
+                            </p>
+                            <a href="college-career.html" class="btn btn-primary">Read Insights</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm">
+                        <img src="images/content-creator.jpg" class="card-img-top"
+                             alt="Content creator filming with a camera and ring light">
+                        <div class="card-body">
+                            <h5 class="card-title">Content Creation</h5>
+                            <p class="card-text">
+                                Behind the scenes of planning, filming, and editing content while staying true
+                                to my personal life and schedule.
+                            </p>
+                            <a href="content-creation.html" class="btn btn-primary">See My Process</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm">
+                        <img src="images/fitness-coach.jpg" class="card-img-top"
+                             alt="Trainer coaching a woman lifting weights in the gym">
+                        <div class="card-body">
+                            <h5 class="card-title">Fitness &amp; Lifestyle</h5>
+                            <p class="card-text">
+                                Simple routines, habits, and mindset shifts that help me stay active and
+                                grounded even on busy days.
+                            </p>
+                            <a href="fitness-lifestyle.html" class="btn btn-primary">View Routines</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center mt-5">
+                <p class="mb-3">
+                    Want to follow the journey in real time? Connect with me on Instagram or reach out for collaborations.
+                </p>
+                <a href="https://instagram.com/yourhandle" target="_blank" class="btn btn-outline-dark me-2">
+                    Follow on Instagram
+                </a>
+                <a href="contact.html" class="btn btn-primary">
+                    Contact Me
+                </a>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer class="bg-dark text-light py-3 mt-auto">
+    <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center">
+        <span>&copy; 2025 Balanced Journey. All rights reserved.</span>
+        <div>
+            <a href="#" class="text-decoration-none text-light me-3">Terms of Use</a>
+            <a href="#" class="text-decoration-none text-light">Privacy Policy</a>
+        </div>
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
